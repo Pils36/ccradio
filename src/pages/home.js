@@ -34,7 +34,7 @@ class Home extends React.Component {
                                                 <a data-scroll-nav="0" href="https://communioncc.org/about" target="_blank" rel="noreferrer">About Us</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a data-scroll-nav="0" href="#" target="_blank" rel="noreferrer">Schedule</a>
+                                                <a data-scroll-nav="0" href="#" rel="noreferrer">Schedule</a>
                                             </li>
                                             <li className="nav-item">
                                                 <a data-scroll-nav="0" href="https://communioncc.org/media" target="_blank" rel="noreferrer">Messages Preached</a>
