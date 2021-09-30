@@ -27,11 +27,14 @@ class Home extends React.Component {
                                     </button>
                                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul id="nav" className="navbar-nav ml-auto">
-                                            <li className="nav-item active">
+                                            {/* <li className="nav-item active">
                                                 <a data-scroll-nav="0" href="#home">Home</a>
-                                            </li>
+                                            </li> */}
                                             <li className="nav-item">
                                                 <a data-scroll-nav="0" href="https://communioncc.org/about" target="_blank" rel="noreferrer">About Us</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a data-scroll-nav="0" href="#" target="_blank" rel="noreferrer">Schedule</a>
                                             </li>
                                             <li className="nav-item">
                                                 <a data-scroll-nav="0" href="https://communioncc.org/media" target="_blank" rel="noreferrer">Messages Preached</a>
@@ -157,6 +160,13 @@ class Home extends React.Component {
 
                                 </div>
                             </div>
+
+                                <div className="col-lg-12 pt-10">
+                                    <center>
+                                        <a className="main-btn text-center" href="https://mixlr.com/communioncc" target="_blank" rel="nofollow" data-animation="fadeInUp" data-delay="1.5s">Follow Us on Mixlr <i className="lni lni-chevron-right"></i></a>
+                                    </center>
+                                </div>
+
                         </div>
                     </div>
                 </section>
@@ -166,7 +176,7 @@ class Home extends React.Component {
                 <section id="discount-product" className="discount-product pt-10">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 disp-0">
                                 <div className="single-discount-product mt-30">
                                     <div className="product-image">
                                         <img src="https://www.delamar.de/wp-content/uploads/2016/12/podcast_equipment.jpg" alt="Product" />
@@ -177,7 +187,7 @@ class Home extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 disp-0">
                                 <div className="single-discount-product mt-30">
                                     <div className="product-image">
                                         <img src="https://th.bing.com/th/id/OIP.byV_O-LAPB2ulQ6IZYJKGAHaEK?pid=ImgDet&w=1024&h=576&rs=1" alt="Product" />
@@ -1150,12 +1160,15 @@ class Home extends React.Component {
                     <div className="container">
                         <div className="footer-widget pt-75 pb-120">
                             <div className="row">
-                                <div className="col-lg-3 col-md-5 col-sm-7">
+                                <div className="col-lg-6 col-md-5 col-sm-7">
                                     <div className="footer-logo mt-40">
                                         <a href="/">
                                             <img src="https://communioncc.org/img/cc_image/ccc_logo.png" alt="Logo" className="footerLogo" />
                                         </a>
                                         <p className="mt-10">Our church exists to help people discover and fulfil their God-given purposes in Christ on the earth.</p>
+                                        <p className="mt-10">
+                                            <a href="https://communioncc.org" target="_blank" rel="noreferrer">https://communioncc.org</a>
+                                        </p>
                                         <ul className="footer-social mt-25">
                                             <li><a href="https://www.facebook.com/communioncc/" target="_blank" rel="noreferrer"><i className="lni lni-facebook-filled"></i></a></li>
                                             <li><a href="https://twitter.com/CommunionCC_?s=20" target="_blank" rel="noreferrer"><i className="lni lni-twitter-original"></i></a></li>
@@ -1163,7 +1176,7 @@ class Home extends React.Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-4 col-sm-5">
+                                <div className="col-lg-3 col-md-4 col-sm-5 disp-0">
                                     <div className="footer-link mt-50">
                                         <h5 className="f-title">Quick Links</h5>
                                         <ul>
@@ -1174,7 +1187,7 @@ class Home extends React.Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-lg-2 col-md-3 col-sm-5">
+                                <div className="col-lg-2 col-md-3 col-sm-5 disp-0">
                                     <div className="footer-link mt-50">
                                         <h5 className="f-title">Others</h5>
                                         <ul>
@@ -1184,7 +1197,7 @@ class Home extends React.Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-5 col-sm-7">
+                                <div className="col-lg-6 col-md-5 col-sm-7">
                                     <div className="footer-info mt-50">
                                         <h5 className="f-title">Contact Info</h5>
                                         <ul>
